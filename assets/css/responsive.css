@@ -1,0 +1,37 @@
+@media only screen and (min-width: 720px) {
+    .navbar-brand {
+        margin-left: 20px;
+    }
+    .nav-item {
+        margin-left: 20px;
+    }
+    .content {
+        text-align: left;
+    }
+    .text {
+        margin-left: 5em;
+    }
+    .img {
+        margin-top: 0;
+    }
+    .left-bg {
+        background: url(../img/charles-rRWiVQzLm7k-unsplash.jpg);
+        width: 40% !important;
+        height: 100%;
+        padding: 0;
+        background-size: cover;
+        position: fixed;
+    }
+    .logo {
+        background: url(../img/logo-ALTA-v2@2x.png);
+        background-size: 100% !important;
+        background-repeat: no-repeat;
+        width: 45vh !important;
+        height: 30vh;
+        background-size: cover;
+        position: absolute;
+        top: 20vw;
+        left: 8vw;
+        padding: 0;
+    }
+}

@@ -1,0 +1,123 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+h1, h2, h3, h4, label, input, option {
+    color: #19345E;
+}
+h1 {
+    font-weight: 700;
+    font-size: 85px;
+}
+h2 {
+    font-weight: 500;
+    font-size: 35px;
+}
+h3 {
+    font-weight: 400;
+    font-size: 28px;
+}
+h4 {
+    font-weight: 550;
+    font-size: 25px;
+}
+span {
+    color: #FF0000;
+}
+label {
+    font-size: 20px;
+    font-weight: 400;
+}
+a, a:hover, a:visited {
+    text-decoration: none;
+    color: white;
+}
+.bg {
+    background-image: url(../img/bg-img.png);
+    background-position: 0 -100px;
+    background-size: cover;
+    position: fixed;
+    border-radius: 20px 20px 0 0;
+    top: 75.63px;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    z-index: -1;
+}
+.container {
+    width: 100%;
+}
+.navbar-brand {
+    margin-left: 10px;
+}
+.nav-item {
+    margin-left: 10px;
+}
+.nav-link {
+    color: #19345E !important;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 13px;
+}
+.nav-link:hover {
+    color: #F47522 !important;
+}
+.active {
+    color: #F47522 !important;
+    font-weight: 700;
+}
+.img {
+    width: 355px;
+    height: 355px;
+    padding: 0;
+    margin-top: 100px;
+}
+.img-circle {
+    border-radius: 355px;
+}
+.text {
+    padding: 0;
+}
+.btn-primary {
+    background-color: #F47522;
+    border: none;
+    border-radius: 20px;
+    width: 150px;
+    height: 40px;
+}
+/* .contact {
+    left: 0;
+    top: 0;
+    width: 100vw;
+    padding: 0;
+} */
+.left-bg {
+    display: hidden;
+}
+.left {
+    position: fixed;
+    width: 70vh;
+    height: 100vh;
+    padding: 0;
+}
+.overlay {
+    position: relative;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #19345EA6;
+}
+.logo {
+    display: hidden;
+}
+.right {
+    position: absolute;
+    left: 40vw;
+    padding: 0;
+    width: 100vh;
+}
+form {
+    width: 100%;
+    margin-left: 50px;
+    margin-top: 50px;
+}
