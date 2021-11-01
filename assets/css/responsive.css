@@ -34,4 +34,11 @@
         left: 8vw;
         padding: 0;
     }
+    .dot-img {
+        position: absolute;
+        bottom: 12em;
+    }
+    .dotted-img {
+        left: 7em;
+    }
 }

@@ -24,7 +24,7 @@
             </div>
             <div class="col-6 right">
                 <div class="container">
-                    <form>
+                    <form action="./review_message.html" id="form">
                         <h3>Contact Us</h3>
                         <div class="mb-3 mt-3">
                             <label for="fullname" class="form-label">Full Name<span> *</span></label>
@@ -36,7 +36,7 @@
                         </div>
                         <div class="mb-3">
                             <label for="phone-number" class="form-label">Phone Number<span> *</span></label>
-                            <input type="email" class="form-control" id="phone-number" placeholder="08573890xxxxx" required>
+                            <input type="number" class="form-control" id="phone-number" placeholder="08573890xxxxx" required>
                         </div>
                         <div class="mb-3">
                             <label for="nationality" class="form-label">Nationality</label>
@@ -47,18 +47,17 @@
                         </div>
                         <div class="mb-5">
                             <label for="message" class="form-label">Message</label>
-                            <textarea class="form-control" id="message" rows="4">
-
-                            </textarea>
+                            <textarea class="form-control" id="message" rows="4"></textarea>
                         </div>
                         <div class="col-md-12">
-                            <button type="submit" class="btn btn-primary" onclick="alert('Message Send')">Submit</button>
+                            <button type="submit" class="btn btn-primary" onclick="passValues()">Submit</button>
                         </div>
                     </form>
                 </div>
             </div>
         </div>
 
+        <script src="./assets/js/script.js"></script>
         <!-- Optional JavaScript; choose one of the two! -->
 
         <!-- Option 1: Bootstrap Bundle with Popper -->
